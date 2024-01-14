@@ -19,7 +19,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    width: 100%; /*ensure div takes full width*/
+    width: 100%; /*ensure div takes full width */
 }
 
 .current{
