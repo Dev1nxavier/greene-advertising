@@ -1,6 +1,6 @@
-.current {
-    color: green;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: 'Lora';
@@ -34,3 +34,4 @@ body {
     height: 50px;
     width: auto;
 }
+
