@@ -669,28 +669,35 @@ video {
 
 .text-custom-green {
   --tw-text-opacity: 1;
-  color: rgb(98 144 128 / var(--tw-text-opacity));
+  color: rgb(98 144 128/var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.current {
+  color: green;
 }
 
 @font-face {
-    font-family: 'Lora';
-    src: url('../fonts/Lora-VariableFont_wght.ttf') format('trutype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Lora";
+  src: url("../fonts/Lora-VariableFont_wght.ttf") format("trutype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 body {
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
-.bg-image{
-    background: url('../images/bottles_labels.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%; /*ensure div takes full width*/
-    /* height: 100%; */
+.bg-image {
+  background: url("../images/bottles_labels.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%; /*ensure div takes full width */
 }
 
 .current {
@@ -698,11 +705,46 @@ body {
 }
 
 .nav-container {
-    text-align: center;
+  text-align: center;
 }
 
 .logo img {
-    height: 50px;
-    width: auto;
+  height: 50px;
+  width: auto;
 }
 
+.hover\:bg-green-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61/var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
