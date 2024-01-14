@@ -677,9 +677,10 @@ video {
   color: rgb(255 255 255/var(--tw-text-opacity));
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.current {
+  color: green;
+}
+
 @font-face {
   font-family: "Lora";
   src: url("../fonts/Lora-VariableFont_wght.ttf") format("trutype");
@@ -710,10 +711,6 @@ body {
 .logo img {
   height: 50px;
   width: auto;
-}
-
-.current {
-  color: green;
 }
 
 .hover\:bg-green-700:hover {
