@@ -1,0 +1,17 @@
+
+  <ul class="inline-flex">
+    {% for item in site.data.navigation %}
+    <li class="mx-10">
+      <a href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>
+        {{ item.name }}
+      </a>
+    </li>
+
+    <!-- contact buton -->
+    <li class="contact">
+      <a href="/contact">
+        contact
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
